@@ -42,41 +42,6 @@ a {
   margin-bottom: 3px;
 }
 
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
 .fa {
   margin-right: 5px;
 }
@@ -144,6 +109,7 @@ header {
 
 .heading h2 {
   font-weight: normal;
+  font-size: 30px;
 }
 
 .lesson {
@@ -157,21 +123,12 @@ header {
 
 .lesson-icon p {
   position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+  margin-top: 30px;
+  text-align: center;
 }
 
 h3	{
-	font-size: 50px;
+	font-size: 40px;
 	margin-bottom: 10px;
 	text-align: center;
 	color: #2c2c54;
@@ -183,18 +140,18 @@ h3	{
 
 .contact-from p {
 	margin-top: 30px;
-	font-size: 30px;
+	font-size: 20px;
 }
 h4{
 	border-bottom: 2px solid #dee7ec;
 	padding-bottom: 15px;
 	margin-bottom: 50px;
-	font-size: 35px;
+	font-size: 30px;
 	color: #d63031;
 }
 
 input, textarea {
-	padding: 20px;
+	padding: 10px;
 	margin-top: 10px;
 	margin-bottom: 30px;
 	font-size: 18px;
@@ -213,13 +170,14 @@ footer {
   background-color:  #2d3436;
   padding: 40px;
   color:#dfe6e9;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-name: logo;
 }
 .footer-logo {
-  font-size : 80px;
+  font-size : 60px;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 @keyframes logo {
